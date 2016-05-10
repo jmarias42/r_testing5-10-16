@@ -1,12 +1,12 @@
 {
-    "contents" : "## Customize dependencies\ndependencies:\n  pre:\n    - sudo apt-get update && sudo apt-get -y install r-base\n## Customize test commands\ntest:\n  override:\n    - Rscript age_demean.R",
+    "contents" : "## Customize dependencies\ndependencies:\n  pre:\n    - sudo apt-get update && sudo apt-get -y install r-base\n## Customize test commands\ntest:\n  override:\n    - Rscript age_demean.R participants.tsv",
     "created" : 1462909021679.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2123157943",
+    "hash" : "3891361335",
     "id" : "583C5AF5",
-    "lastKnownWriteTime" : 1462909445,
+    "lastKnownWriteTime" : 1462909752,
     "path" : "C:/Users/Juan/Google Drive/1. STANFORD/0. Research/2. McCandliss/Testing R Script - Psych Presentation/circle.yml",
     "project_path" : "circle.yml",
     "properties" : {
