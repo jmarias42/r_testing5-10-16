@@ -1,0 +1,18 @@
+{
+    "contents" : "## Customize dependencies\ndependencies:\n  pre:\n    - sudo apt-get update && sudo apt-get -y install r-base\n## Customize test commands\ntest:\n  override:\n    - Rscript demean_age.R",
+    "created" : 1462909021679.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3378577179",
+    "id" : "583C5AF5",
+    "lastKnownWriteTime" : 1462909144,
+    "path" : "C:/Users/Juan/Google Drive/1. STANFORD/0. Research/2. McCandliss/Testing R Script - Psych Presentation/circle.yml",
+    "project_path" : "circle.yml",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "yaml"
+}
