@@ -1,12 +1,12 @@
 {
-    "contents" : "args <- commandArgs(trailingOnly = TRUE)\n\ndemographics <- read.csv(file=args[1], head=TRUE, sep=\"\\t\")\n\nage <- demographics[4]\n\ndemean_age <- age - sum(age)/length(age)\n\nwrite.table(demean_age, file=\"age_demeaned.tsv\", row.names=FALSE, col.names=FALSE, sep=\"\\t\")\n\nprint(\"done!\")\n",
+    "contents" : "args <- commandArgs(trailingOnly = TRUE)\n\ndemographics <- read.csv(file=args[1], head=TRUE, sep=\"\\t\")\n\nage <- demographics$age\n\nmean_age <- sum(age)/length(age)\nstopifnot(mean_age < 100)\nstopifnot(mean_age > 10)\n\ndemean_age <- age - mean_age\n\nwrite.table(demean_age, file=\"age_demeaned.tsv\", row.names=FALSE, col.names=FALSE, sep=\"\\t\")\n\nprint(\"done!\")\n",
     "created" : 1462909402981.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1017895343",
+    "hash" : "3845851421",
     "id" : "7A81EF3D",
-    "lastKnownWriteTime" : 1462909651,
+    "lastKnownWriteTime" : 1462910726,
     "path" : "C:/Users/Juan/Google Drive/1. STANFORD/0. Research/2. McCandliss/Testing R Script - Psych Presentation/age_demean.R",
     "project_path" : "age_demean.R",
     "properties" : {

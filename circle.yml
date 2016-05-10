@@ -5,5 +5,5 @@ dependencies:
 ## Customize test commands
 test:
   override:
-    - Rscript age_demean.R participants.tsv
-    - Rscript age_demean.R participants2.tsv
+    - Rscript age_demean.R participants.tsv.txt
+    - Rscript age_demean.R participants2.tsv.txt
