@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1462908018764.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B3B31980",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "zlg1efl9ld",
+        "caption" : "demean_age",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=demean_age&cache_key=zlg1efl9ld",
+        "displayedObservations" : "24",
+        "environment" : "",
+        "object" : "demean_age",
+        "totalObservations" : "24",
+        "variables" : "1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
